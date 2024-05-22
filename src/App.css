@@ -1,0 +1,24 @@
+.app {
+    display: flex;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+}
+
+.headerAndContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background: white;
+    color: black;
+    width: 100%;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Helvetica', 'Arial Narrow', Arial, sans-serif
+}

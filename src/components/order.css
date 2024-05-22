@@ -1,0 +1,19 @@
+.orderName {
+    width: 100%;
+    height: 50px;
+    background: gold;
+    cursor: pointer;
+}
+
+/*  */
+.collapsePanel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.collapse {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

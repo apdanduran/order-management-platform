@@ -1,0 +1,73 @@
+{
+  "couriers": [
+    {
+      "id": "1",
+      "name": "Cemrehan Çavdar"
+    },
+    {
+      "id": "2",
+      "name": "Yasin Beyazlı"
+    },
+    {
+      "id": "3",
+      "name": "Duhan Günsel"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "address": "Kadıköy, İstanbul, Turkey, Sahte Sokak, No: 123 Daire: 4",
+      "payment": "Credit Card",
+      "delivery_time": "2024-12-24T23:59:59Z",
+      "status": "DELIVERED",
+      "items": [
+        {
+          "id": "1",
+          "name": "Şerifali Köfte"
+        },
+        {
+          "id": "2",
+          "name": "Mercimek Çorbası"
+        }
+      ],
+      "courier_id": "2"
+    },
+    {
+      "id": "2",
+      "address": "Bağdat Caddesi, Bağdat Sokak, No: 1, Daire: 1, Kadıköy, İstanbul",
+      "payment": "Cash",
+      "delivery_time": "2024-12-25T12:00:00Z",
+      "status": "DELIVERED",
+      "items": [
+        {
+          "id": "3",
+          "name": "Adana Kebap"
+        },
+        {
+          "id": "4",
+          "name": "Baklava"
+        }
+      ],
+      "courier_id": "3"
+    },
+    {
+      "id": "3",
+      "address": "Kadıköy, İstanbul, Turkey,  Başka bir Sok, No: 456 Bina: 7 Daire: 8 Bina Adı: Uzun Apartmanı",
+      "payment": "Credit Card",
+      "status": "DELIVERED",
+      "delivery_time": "2024-12-26T23:59:59Z",
+      "items": [
+        {
+          "id": "5",
+          "name": "Tavuklu Salata"
+        },
+        {
+          "id": "6",
+          "name": "Ayran"
+        }
+      ],
+      "courier_id": "3"
+    }
+  ],
+  "baskets": []
+}
