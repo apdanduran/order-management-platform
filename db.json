@@ -19,7 +19,7 @@
       "address": "Kadıköy, İstanbul, Turkey, Sahte Sokak, No: 123 Daire: 4",
       "payment": "Credit Card",
       "delivery_time": "2024-12-24T23:59:59Z",
-      "status": "DELIVERED",
+      "status": "PREPARING",
       "items": [
         {
           "id": "1",
@@ -29,15 +29,14 @@
           "id": "2",
           "name": "Mercimek Çorbası"
         }
-      ],
-      "courier_id": "2"
+      ]
     },
     {
       "id": "2",
       "address": "Bağdat Caddesi, Bağdat Sokak, No: 1, Daire: 1, Kadıköy, İstanbul",
       "payment": "Cash",
       "delivery_time": "2024-12-25T12:00:00Z",
-      "status": "DELIVERED",
+      "status": "PREPARING",
       "items": [
         {
           "id": "3",
@@ -47,14 +46,13 @@
           "id": "4",
           "name": "Baklava"
         }
-      ],
-      "courier_id": "3"
+      ]
     },
     {
       "id": "3",
       "address": "Kadıköy, İstanbul, Turkey,  Başka bir Sok, No: 456 Bina: 7 Daire: 8 Bina Adı: Uzun Apartmanı",
       "payment": "Credit Card",
-      "status": "DELIVERED",
+      "status": "PREPARING",
       "delivery_time": "2024-12-26T23:59:59Z",
       "items": [
         {
@@ -65,8 +63,7 @@
           "id": "6",
           "name": "Ayran"
         }
-      ],
-      "courier_id": "3"
+      ]
     }
   ],
   "baskets": []
